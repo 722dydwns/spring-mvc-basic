@@ -7,7 +7,7 @@ import lombok.Setter;
 public class Member {
     //정보
     private Long id;
-    private String useName;
+    private String userName;
     private int age;
     //기본 생성자
     public Member() {
@@ -15,7 +15,8 @@ public class Member {
     }
     //생성자
     public Member(String userName, int age){
-        this.useName = userName;
+        this.userName = userName;
         this.age = age;
     }
+
 }
